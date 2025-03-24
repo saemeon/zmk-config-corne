@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION    &kp QUESTION  &kp SLASH     &kp N8          &kp N9     &kp N0  &kp GRAVE
-&trans  &kp AMPERSAND      &kp HASH          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp COLON     &kp HASH      &kp UNDERSCORE  &kp RIGHT  &trans  &trans
-&trans  &kp LS(NUBS)       &kp PERCENT       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR         &kp EQUAL     &kp ASTERISK  &kp PLUS        &trans     &trans  &trans
-                                             &trans                &trans                 &trans             &trans        &trans        &trans
+&trans  &kp LS(LA(DOUBLE_QUOTES))  &kp LA(NUMBER_7)  &kp LA(NUMBER_5)  &kp LA(N6)        &kp LS(EXCLAMATION)    &kp LS(MINUS)     &kp LS(NUMBER_2)  &kp MINUS         &kp N9            &none   &trans
+&trans  &kp AMPERSAND              &kp HASH          &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LA(G)              &kp LS(DOT)       &kp LA(NUMBER_3)  &kp LS(SLASH)     &kp LA(L)         &trans  &trans
+&trans  &kp LS(NUBS)               &kp PERCENT       &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp BSLH               &kp LS(NUMBER_0)  &kp LS(NUMBER_3)  &kp LS(NUMBER_7)  &kp LS(NUMBER_1)  &trans  &trans
+                                                     &trans            &trans            &trans                 &trans            &trans            &trans
             >;
         };
 
