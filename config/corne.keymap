@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LS(LA(NUMBER_7))  &kp LA(NUMBER_7)  &kp LA(NUMBER_5)  &kp LA(N6)        &kp LS(RIGHT_BRACKET)    &kp LS(MINUS)     &kp LS(NUMBER_2)  &kp MINUS         &kp LA(EQUAL)     &none   &trans
-&trans  &kp AMPERSAND         &kp EQUAL         &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LA(G)                &kp LS(DOT)       &kp LA(NUMBER_3)  &kp LS(SLASH)     &kp LA(L)         &trans  &trans
-&trans  &kp LS(GRAVE)         &kp PERCENT       &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp BSLH                 &kp LS(NUMBER_0)  &kp LS(NUMBER_3)  &kp LS(NUMBER_7)  &kp LS(NUMBER_1)  &trans  &trans
+&trans  &kp LS(LA(NUMBER_7))  &kp LA(NUMBER_7)  &kp LA(NUMBER_5)  &kp LA(N6)        &kp LS(RIGHT_BRACKET)    &kp LS(MINUS)     &kp LS(NUMBER_2)  &kp MINUS         &kp LA(EQUAL)     &kp EQUAL  &trans
+&trans  &kp LS(NUMBER_6)      &kp LS(NUMBER_1)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LA(G)                &kp LS(DOT)       &kp LA(NUMBER_3)  &kp LS(SLASH)     &kp LA(L)         &trans     &trans
+&trans  &kp LS(GRAVE)         &kp PERCENT       &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp BSLH                 &kp LS(NUMBER_0)  &kp LS(NUMBER_3)  &kp LS(NUMBER_7)  &kp LS(NUMBER_1)  &trans     &trans
                                                 &trans            &trans            &trans                   &trans            &trans            &trans
             >;
         };
@@ -59,8 +59,8 @@
 
         number {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &kp N6  &kp N7  &kp N8  &kp N9    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0    &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
